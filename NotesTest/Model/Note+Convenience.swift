@@ -11,7 +11,7 @@ import CoreData
 
 extension Note {
     @discardableResult
-    convenience init(title: String, isComplete: Bool, context: NSManagedObjectContext = CoreDataStack.context) {
+    convenience init(title: String, isComplete: Bool = false, context: NSManagedObjectContext = CoreDataStack.context) {
         self.init(context: context)
         self.title = title
         self.isComplete = isComplete
