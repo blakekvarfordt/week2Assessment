@@ -88,6 +88,7 @@
 		638ADA4C22FDC52D005FA8B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				638ADA5522FDCBEA005FA8B3 /* NoteController.swift */,
 				638ADA4922FDC4EC005FA8B3 /* CoreDataStack.swift */,
 				638ADA4D22FDC562005FA8B3 /* Note+Convenience.swift */,
 			);
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				638ADA4F22FDC729005FA8B3 /* NoteTableViewCell.swift */,
-				638ADA5522FDCBEA005FA8B3 /* NoteController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
